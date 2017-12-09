@@ -63,7 +63,7 @@ nordnet.authenticate({
 
   // Listen for feed messages
   nordnet.on('private', data => console.log('Private feed:', data))
-  nordnet.on('public', data => console.log('Public feed:', data)
+  nordnet.on('public', data => console.log('Public feed:', data))
 
   // Subscribe to trade events for Nordnet B (1869) on Burgundy market (30)
   nordnet.subscribe('trades', { i: '1869', m: 30 })
